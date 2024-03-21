@@ -24,8 +24,8 @@ app.get("/", (req, res) => {
 app.post("/user", async (req, res) => {
     console.log("All the users");
     const newUser = new User({
-        name: "Prayag",
-        email: "abc123@gmail.com"
+        name: "PB",
+        email: "abcd1234@gmail.com"
     })
     await newUser.save()
         .then(() => {
